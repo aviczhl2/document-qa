@@ -8,7 +8,7 @@ from typing import Set
 
 from tqdm import tqdm
 
-from . import config
+from docqa import config
 from docqa.config import CORPUS_DIR
 from docqa.data_processing.text_utils import NltkAndPunctTokenizer
 from docqa.triviaqa.read_data import normalize_wiki_filename
