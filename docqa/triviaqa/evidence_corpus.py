@@ -8,12 +8,11 @@ from typing import Set
 
 from tqdm import tqdm
 
-from docqa import config
-from docqa.config import CORPUS_DIR
-from docqa.data_processing.text_utils import NltkAndPunctTokenizer
-from docqa.triviaqa.read_data import normalize_wiki_filename
-from docqa.utils import group, split, flatten_iterable
-
+from .. import config
+from ...config import CORPUS_DIR
+from ...data_processing.text_utils import NltkAndPunctTokenizer
+from ...triviaqa.read_data import normalize_wiki_filename
+from ...utils import group, split, flatten_iterable
 """
 Build and cache a tokenized version of the evidence corpus
 """
